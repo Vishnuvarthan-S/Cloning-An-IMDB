@@ -1,0 +1,53 @@
+.custom-card {
+    width: 18rem;
+    margin: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    border-style: solid;
+    border-color: chocolate;
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .custom-card-img {
+    border-radius: 15px;
+    margin-left: 10px;
+    height: 200px;
+    width: 265px;
+  }
+  
+  .custom-card-body {
+    padding: 1.25rem;
+  }
+  
+  .custom-card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .custom-card-text {
+    color: #666;
+  }
+  
+  .custom-btn {
+      margin-top: 3px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.375rem 0.75rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10%;
+  }
+  
+  .custom-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .naane{
+    display: inline-flex;
+    padding-top: 1%;
+  }

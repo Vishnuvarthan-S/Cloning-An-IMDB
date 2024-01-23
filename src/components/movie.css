@@ -1,0 +1,20 @@
+.Name{
+    margin-top: 3%;
+    color: aliceblue;
+    text-align: center;
+}
+.Desc{
+    font-size: medium;
+    color: aliceblue;
+    text-align: center;
+}
+img{
+    margin-left: 37%;
+    width: 400px;
+    height: 300px;
+}
+.rev{
+    margin-left:70%;
+}
+
+

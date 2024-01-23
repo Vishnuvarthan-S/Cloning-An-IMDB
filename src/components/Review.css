@@ -1,0 +1,133 @@
+body{
+  background-image: url("https://media2.giphy.com/media/U3qYN8S0j3bpK/giphy.webp?cid=ecf05e47rspf18kbazyfko4qqr7d6rv80tiytnmg3if4u5z9&ep=v1_gifs_search&rid=giphy.webp&ct=g");
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
+}
+.main-heading{
+  color: rgb(155, 193, 211);
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.review-box{
+  position: relative;
+  width:60%;
+  height:350px;
+  font-size: 30px;
+  border: none;
+  left:70px;
+  color: darkblue;
+  background-color: rgb(186, 233, 233);
+  font-family: cursive;
+  border-radius: 20px;;
+  margin-left: 20px;
+  text-align: left;
+}
+.movie-image{
+  position: relative;
+  left:30px;
+}
+.movie-div{
+  position: relative;
+  background-color: rgb(7, 7, 32);
+  padding: 50px 60px;;
+  width:20%;
+  left:1100px;
+  top:-410px;
+  border: 4px solid bisque;
+  border-radius: 15px;
+  /* animation-name: details;
+  animation-duration: 5s; */
+}
+/* @keyframes details {
+  from{
+      left: 2100px;
+  }
+  to{
+      left: 1700px;
+  }
+} */
+.movie-name{
+  position: relative;
+  color: aliceblue;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+.post-button{
+  position: relative;
+  top:-550px;
+  left:650px;
+  padding: 15px 80px;
+  font-size: 30px;
+  background-color:  rgb(7, 7, 32);
+  border-radius: 15px;
+  color: aliceblue;
+  font-weight: bold;
+  border: 2px solid pink;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.post-button:hover{
+  opacity: 0.5;
+  color: rgb(248, 248, 248);
+}
+.star-rating {
+  display: inline-block;
+  position: relative;
+  top:-10px;
+  left:10px;
+}
+
+.star-rating input {
+  display: none;
+}
+
+.star-rating label {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 30px; /* Adjust size as needed */
+}
+
+.star-rating span {
+  color: rgb(241, 241, 236); /* Default color for stars */
+}
+
+.star-rating .checked {
+  color: orange; /* Color for selected stars */
+}
+/* Modal CSS */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  max-width: 80%;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.content {
+  text-align: center;
+}
+
+.thumbs-up {
+  font-size: 48px;
+}
